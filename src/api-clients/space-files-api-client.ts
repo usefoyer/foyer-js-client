@@ -98,6 +98,7 @@ export class SpaceFilesApiClient
             name: vm.name,
             size: size,
             blob: blobName,
+            silent: vm.silent,
         }
     }
 

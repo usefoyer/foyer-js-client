@@ -23,6 +23,8 @@ export class AddFileViewModel {
     parent_id?: string;
     /** The name of the file. */
     name: string;
+    /** When true, the file is uploaded silently: no email notifications, no socket events, and the file is automatically marked as read for all users in the space. */
+    silent?: boolean;
 };
 
 export class AddFolderViewModel {
@@ -66,6 +68,8 @@ export class RawAddFileViewModel {
     blob?: string;
     /** The name of the thumbnail's blob (within the relevant space's container). */
     thumbnail_blob?: string;
+    /** When true, the file is uploaded silently: no email notifications, no socket events, and the file is automatically marked as read for all users in the space. */
+    silent?: boolean;
 };
 
 export class SasResponse {
