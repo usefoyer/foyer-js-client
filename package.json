@@ -39,7 +39,7 @@
     },
     "dependencies": {
         "@azure/storage-blob": "^12.25.0",
-        "uuid": "^10.0.0"
+        "uuid": "^14.0.0"
     },
     "pnpm": {
         "overrides": {
